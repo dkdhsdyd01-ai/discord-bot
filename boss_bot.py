@@ -203,12 +203,8 @@ async def before_alert_loop():
     await bot.wait_until_ready()
 
 
-if not TOKEN:
-    raise RuntimeError(
-        "DISCORD_BOT_TOKEN 환경변수를 설정해 주세요."
-    )
 
-bot.run(TOKEN)
+bot.run('MTU1ODA2MzE3NzU3OTg5MjczNg.Geclz9.Lg8apw05mgQUmmgX-4Wo0KGZMpYgW51l_b0vDE')
 
 
 from discord.ext import tasks
