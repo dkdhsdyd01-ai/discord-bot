@@ -204,7 +204,7 @@ async def before_alert_loop():
 
 
 
-bot.run('MTU1ODA2MzE3NzU3OTg5MjczNg.Geclz9.Lg8apw05mgQUmmgX-4Wo0KGZMpYgW51l_b0vDE')
+bot.run('os.getenv')
 
 
 from discord.ext import tasks
